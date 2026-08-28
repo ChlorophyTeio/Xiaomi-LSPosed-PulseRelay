@@ -4,6 +4,8 @@
 
 PulseRelay 是一个面向 **Root + LSPosed** 环境的 Android 模块。目前主要针对 **小米运动健康 3.58.x** 适配，并针对直播/录制场景做了专门简化：不需要账号、UUID、Cookie、HTTP Server、JSON API，也不要求手机长期充当服务端。
 
+配套 obs 插件请前往 https://github.com/ChlorophyTeio/heart-rate-obs-plugin 下载。
+
 它的工作链路非常简单：
 
 ```text
