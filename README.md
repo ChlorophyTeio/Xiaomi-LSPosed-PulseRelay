@@ -253,7 +253,7 @@ PulseRelay 会尝试给 About 页面中的 ImageView 安装长按入口；如果
 
 成功后会弹出 PulseRelay 完整设置界面。
 
-<img width="1200" height="2608" width="500" alt="Screenshot_2026-08-28-14-51-34-445_com mi health" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" />
+<img width="1200" height="2608" alt="Screenshot_2026-08-28-14-51-34-445_com mi health" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" width="50%"/>
 
 ### 运动过程中进入
 
@@ -322,7 +322,7 @@ PulseRelay 3.x 会自动迁移为：
 
 所以通常不需要手动清除旧配置。
 
-<img width="800" height="1738" width="500" alt="Screenshot_2026-08-28-14-51-37-489_com mi health" src="https://github.com/user-attachments/assets/9c43634f-182d-40b3-a533-1b0eddb90c99" />
+<img width="800" height="1738" alt="Screenshot_2026-08-28-14-51-37-489_com mi health" src="https://github.com/user-attachments/assets/9c43634f-182d-40b3-a533-1b0eddb90c99" width="50%"/>
 
 ---
 
@@ -495,11 +495,11 @@ PulseRelay 会检测小米运动健康的运动 Activity，并把悬浮入口直
 - 返回运动页面。
 
 > **运动页悬浮按钮**  
-<img width="800" height="1738" width="500" alt="Screenshot_2026-08-28-15-16-07-002_com mi health" src="https://github.com/user-attachments/assets/ae927c2e-fe33-4f64-aec8-eb292f1e223b" />
+<img width="800" height="1738" alt="Screenshot_2026-08-28-15-16-07-002_com mi health" src="https://github.com/user-attachments/assets/ae927c2e-fe33-4f64-aec8-eb292f1e223b" width="50%"/>
 
 
 > **运动快捷面板**  
-<img width="800" height="1738" width="500" alt="Screenshot_2026-08-28-15-16-10-641_com mi health" src="https://github.com/user-attachments/assets/34ba1194-3860-4028-8aba-2edf4b6db1d6" />
+<img width="800" height="1738" alt="Screenshot_2026-08-28-15-16-10-641_com mi health" src="https://github.com/user-attachments/assets/34ba1194-3860-4028-8aba-2edf4b6db1d6" width="50%"/>
 
 ---
 
