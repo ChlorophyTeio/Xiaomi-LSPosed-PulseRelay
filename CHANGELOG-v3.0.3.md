@@ -1,4 +1,4 @@
-# PulseRelay v3.0.3
+`# PulseRelay v3.0.3`
 
 - 修复运动快捷面板错误引用 `Diagnostics.lastEndpoint` 导致 Kotlin 编译失败
 - 最近网络信息改用现有的 `lastStatus + lastResolvedIp`
