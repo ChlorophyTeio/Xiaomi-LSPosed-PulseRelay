@@ -253,8 +253,9 @@ PulseRelay 会尝试给 About 页面中的 ImageView 安装长按入口；如果
 
 成功后会弹出 PulseRelay 完整设置界面。
 
+> “关于”页面
 <p align="center">
-   <img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/5774e0c9-524d-4b75-bb9d-97e713fa3761" />
+   <img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/18260801-5166-4197-b8a6-a448a156b7d2" />
 </p>
 
 ### 运动过程中进入
@@ -324,8 +325,9 @@ PulseRelay 3.x 会自动迁移为：
 
 所以通常不需要手动清除旧配置。
 
+> 配置界面
 <p align="center">
-   <img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" />
+   <img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/5774e0c9-524d-4b75-bb9d-97e713fa3761" />
 </p>
 
 ---
