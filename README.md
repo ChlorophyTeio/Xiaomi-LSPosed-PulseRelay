@@ -2,7 +2,9 @@
 
 > 将小米运动健康里的实时心率，通过局域网 UDP 低延迟转发给 OBS 或其他接收端。
 
-PulseRelay 是一个面向 **Root + LSPosed** 环境的 Android 模块。目前主要针对 **小米运动健康 3.58.x** 适配，并针对直播/录制场景做了专门简化：不需要账号、UUID、Cookie、HTTP Server、JSON API，也不要求手机长期充当服务端。
+PulseRelay 是一个面向 **Root + LSPosed** 环境的 Android 模块。目前主要针对 **[小米运动健康 3.58.x](https://cdn.cnbj0.fds.api.mi-img.com/default/3.58.0_20260810220817_mihealth.apk?GalaxyAccessKeyId=5721718224520&Expires=9223372036854775807&Signature=RXd/t4LSeyB1dW8JBYCmUoDet6M=&response-content-disposition=attachment)** 适配，并针对直播/录制场景做了专门简化：不需要账号、UUID、Cookie、HTTP Server、JSON API，也不要求手机长期充当服务端。
+
+配套 obs 插件请前往 https://github.com/ChlorophyTeio/heart-rate-obs-plugin 下载。
 
 它的工作链路非常简单：
 
@@ -33,7 +35,7 @@ PulseRelay 主要做三件事：
 - [使用前准备](#使用前准备)
 - [五分钟快速开始](#五分钟快速开始)
 - [第一步：安装并启用 PulseRelay](#第一步安装并启用-pulserelay)
-- [第二步：准备 OBS UDP 接收端](#第二步准备-obs-udp-接收端)
+- [第二步：准备 UDP 接收端](#第二步准备-udp-接收端)
 - [第三步：打开 PulseRelay 设置](#第三步打开-pulserelay-设置)
 - [第四步：填写接收目标](#第四步填写接收目标)
 - [第五步：先做 PINGPONG 测试](#第五步先做-pingpong-测试)
@@ -52,7 +54,6 @@ PulseRelay 主要做三件事：
 - [UDP 协议](#udp-协议)
 - [兼容性与 Hook 点](#兼容性与-hook-点)
 - [安全与隐私](#安全与隐私)
-- [截图目录](#截图目录)
 
 ---
 
@@ -1331,30 +1332,6 @@ PulseRelay 的设计目标是 **本地局域网中继**。
 - 公共机场/酒店 Wi-Fi；
 - 不可信共享局域网；
 - 直接暴露 UDP 端口到公网。
-
----
-
-# 截图目录
-
-建议把 README 图片放在：
-
-```text
-docs/images/
-```
-
-预留文件名：
-
-| 文件 | 内容 |
-|---|---|
-| `01-lsposed-scope.png` | LSPosed PulseRelay 作用域 |
-| `02-settings-entry.png` | 小米运动健康 About 页面设置入口 |
-| `03-settings.png` | PulseRelay 完整设置页 |
-| `04-sport-overlay.png` | 运动页面 `♥ + BPM` 悬浮按钮 |
-| `05-sport-quick-panel.png` | 运动快捷面板 |
-| `06-obs-udp-receiver.png` | OBS UDP Receiver 来源属性 |
-| `07-ping-pong.png` | PING/PONG 成功结果 |
-
-截图准备好后，把 README 中对应的 Markdown 图片注释取消即可。
 
 ---
 

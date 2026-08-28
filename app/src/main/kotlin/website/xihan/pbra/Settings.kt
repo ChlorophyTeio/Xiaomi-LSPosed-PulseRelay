@@ -61,6 +61,7 @@ object Settings {
     /**
      * v2.x stored HTTP endpoints. v3 is UDP-only, so strip scheme/path automatically.
      * Example: http://192.168.1.10:18181/receive_data -> 192.168.1.10:18181
+     * Domain targets such as obs.example.com:18181 are preserved and resolved by PulseUdp.
      */
     private fun migrateLegacyTargets(raw: String): String = raw
         .replace(';', '\n')

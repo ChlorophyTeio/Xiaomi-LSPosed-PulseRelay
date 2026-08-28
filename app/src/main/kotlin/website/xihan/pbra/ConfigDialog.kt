@@ -79,7 +79,7 @@ object ConfigDialog {
                 typeface = Typeface.DEFAULT_BOLD
             })
             addView(TextView(activity).apply {
-                text = "v3.0 · 小米运动健康 3.58.x · UDP 心率中继"
+                text = "v3.1 · 小米运动健康 3.58.x · UDP 心率中继"
                 textSize = 12.5f
                 setTextColor(p.textSecondary)
             })
@@ -88,7 +88,7 @@ object ConfigDialog {
         addGap(root, activity, 14)
 
         val endpoints = EditText(activity).apply {
-            hint = "每行一个接收端。端口省略时默认 ${Settings.DEFAULT_PORT}：\n192.168.1.10\n192.168.1.20:18182"
+            hint = "每行一个接收端，支持 IP / 域名。端口省略时默认 ${Settings.DEFAULT_PORT}：\n192.168.1.10\nobs.example.com:18181"
             setText(Settings.endpointsText)
             inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_FLAG_MULTI_LINE
             isSingleLine = false
@@ -109,7 +109,7 @@ object ConfigDialog {
         fun refreshTargetCount() {
             val uni = Settings.parseTargets(endpoints.text.toString()).size
             val extra = if (Settings.broadcastEnabled) " + 广播" else ""
-            targetCount.text = "当前 $uni/${Settings.MAX_TARGETS} 个单播目标$extra · 不再填写 URL 或路径"
+            targetCount.text = "当前 $uni/${Settings.MAX_TARGETS} 个单播目标$extra · 支持 IP / 域名 / 主机名"
         }
 
         val enabled = highContrastSwitch(activity, "启用实时中继", Settings.enabled, p)
@@ -129,7 +129,7 @@ object ConfigDialog {
         val sportOverlay = highContrastSwitch(activity, "运动页面显示快捷悬浮按钮", Settings.sportOverlayEnabled, p)
         val debug = highContrastSwitch(activity, "详细调试日志（LSPosed）", Settings.debugEnabled, p)
 
-        addCard(root, activity, p, "UDP 接收端", "PulseRelay 使用 PULSE/1 UDP 协议。单播可精确测试；广播适合一台手机同时喂给同网段多个 OBS。") { box ->
+        addCard(root, activity, p, "UDP 接收端", "支持 IPv4、IPv6 和域名。域名会自动 DNS 解析并在诊断中显示实际 IP；广播适合同网段多个接收端。") { box ->
             box.addView(endpoints, matchWrap())
             box.addView(targetCount, matchWrap())
             addGap(box, activity, 8)
