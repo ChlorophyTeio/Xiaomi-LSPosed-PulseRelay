@@ -54,7 +54,6 @@ PulseRelay 主要做三件事：
 - [UDP 协议](#udp-协议)
 - [兼容性与 Hook 点](#兼容性与-hook-点)
 - [安全与隐私](#安全与隐私)
-- [截图目录](#截图目录)
 
 ---
 
@@ -1333,30 +1332,6 @@ PulseRelay 的设计目标是 **本地局域网中继**。
 - 公共机场/酒店 Wi-Fi；
 - 不可信共享局域网；
 - 直接暴露 UDP 端口到公网。
-
----
-
-# 截图目录
-
-建议把 README 图片放在：
-
-```text
-docs/images/
-```
-
-预留文件名：
-
-| 文件 | 内容 |
-|---|---|
-| `01-lsposed-scope.png` | LSPosed PulseRelay 作用域 |
-| `02-settings-entry.png` | 小米运动健康 About 页面设置入口 |
-| `03-settings.png` | PulseRelay 完整设置页 |
-| `04-sport-overlay.png` | 运动页面 `♥ + BPM` 悬浮按钮 |
-| `05-sport-quick-panel.png` | 运动快捷面板 |
-| `06-obs-udp-receiver.png` | OBS UDP Receiver 来源属性 |
-| `07-ping-pong.png` | PING/PONG 成功结果 |
-
-截图准备好后，把 README 中对应的 Markdown 图片注释取消即可。
 
 ---
 
