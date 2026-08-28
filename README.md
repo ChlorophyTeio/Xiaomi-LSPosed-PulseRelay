@@ -253,7 +253,9 @@ PulseRelay 会尝试给 About 页面中的 ImageView 安装长按入口；如果
 
 成功后会弹出 PulseRelay 完整设置界面。
 
-<img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" />
+<p align="center">
+   <img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" />
+</p>
 
 ### 运动过程中进入
 
@@ -322,7 +324,9 @@ PulseRelay 3.x 会自动迁移为：
 
 所以通常不需要手动清除旧配置。
 
-<img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" />
+<p align="center">
+   <img width="300" alt="PulseRelay完整设置界面" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" />
+</p>
 
 ---
 
@@ -494,7 +498,7 @@ PulseRelay 会检测小米运动健康的运动 Activity，并把悬浮入口直
 - 打开完整设置；
 - 返回运动页面。
 
-<p align="left">
+<p align="center">
   <img width="300" alt="运动页悬浮按钮" src="https://github.com/user-attachments/assets/ae927c2e-fe33-4f64-aec8-eb292f1e223b" />
   <img width="300" alt="运动快捷面板" src="https://github.com/user-attachments/assets/34ba1194-3860-4028-8aba-2edf4b6db1d6" />
 </p>
