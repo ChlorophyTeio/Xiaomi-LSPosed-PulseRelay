@@ -1,0 +1,5 @@
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
+-keep public class website.xihan.pbra.HookEntry { *; }
+-keep public class * implements de.robv.android.xposed.IXposedHookLoadPackage
+-dontwarn de.robv.android.xposed.**
+-keep class de.robv.android.xposed.** { *; }

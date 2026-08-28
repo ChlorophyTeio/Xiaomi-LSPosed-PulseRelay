@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="PulseRelay" android:icon="@drawable/ic_pulse_relay" android:roundIcon="@drawable/ic_pulse_relay">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="小米运动健康实时心率 UDP 局域网中继" />
+        <meta-data android:name="xposedminversion" android:value="90" />
+        <meta-data android:name="xposedscope" android:value="com.mi.health" />
+    </application>
+</manifest>
