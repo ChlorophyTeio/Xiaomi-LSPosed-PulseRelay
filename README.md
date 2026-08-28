@@ -1,4 +1,4 @@
-<img width="1200" height="2608" alt="Screenshot_2026-08-28-14-51-34-445_com mi health" src="https://github.com/user-attachments/assets/c81ffbe5-22f4-4c65-a63f-47580a7c2389" /># PulseRelay
+# PulseRelay
 
 > 将小米运动健康里的实时心率，通过局域网 UDP 低延迟转发给 OBS 或其他接收端。
 
@@ -322,7 +322,7 @@ PulseRelay 3.x 会自动迁移为：
 
 所以通常不需要手动清除旧配置。
 
-<img width="1200" height="2608" alt="Screenshot_2026-08-28-14-51-37-489_com mi health" src="https://github.com/user-attachments/assets/9c43634f-182d-40b3-a533-1b0eddb90c99" />
+<img width="800" height="1738" alt="Screenshot_2026-08-28-14-51-37-489_com mi health" src="https://github.com/user-attachments/assets/9c43634f-182d-40b3-a533-1b0eddb90c99" />
 
 ---
 
@@ -364,12 +364,6 @@ OBS 插件
 
 ```text
 ✓ 192.168.1.20:18181 · PONG · 8ms · 192.168.1.20
-```
-
-失败示例：
-
-```text
-✗ 192.168.1.20:18181 · 未收到 PONG
 ```
 
 ### PING 超时时间
@@ -501,11 +495,11 @@ PulseRelay 会检测小米运动健康的运动 Activity，并把悬浮入口直
 - 返回运动页面。
 
 > **运动页悬浮按钮**  
-<img width="1200" height="2608" alt="Screenshot_2026-08-28-15-16-07-002_com mi health" src="https://github.com/user-attachments/assets/ae927c2e-fe33-4f64-aec8-eb292f1e223b" />
+<img width="800" height="1738" alt="Screenshot_2026-08-28-15-16-07-002_com mi health" src="https://github.com/user-attachments/assets/ae927c2e-fe33-4f64-aec8-eb292f1e223b" />
 
 
 > **运动快捷面板**  
-<img width="1200" height="2608" alt="Screenshot_2026-08-28-15-16-10-641_com mi health" src="https://github.com/user-attachments/assets/34ba1194-3860-4028-8aba-2edf4b6db1d6" />
+<img width="800" height="1738" alt="Screenshot_2026-08-28-15-16-10-641_com mi health" src="https://github.com/user-attachments/assets/34ba1194-3860-4028-8aba-2edf4b6db1d6" />
 
 ---
 
