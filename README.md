@@ -1,4 +1,4 @@
-# PulseRelay
+<img width="1200" height="2608" alt="Screenshot_2026-08-28-14-51-34-445_com mi health" src="https://github.com/user-attachments/assets/c81ffbe5-22f4-4c65-a63f-47580a7c2389" /># PulseRelay
 
 > 将小米运动健康里的实时心率，通过局域网 UDP 低延迟转发给 OBS 或其他接收端。
 
@@ -138,9 +138,8 @@ LSPosed / Xposed API：90+
 
 ```text
                     ┌──────── OBS 电脑 A 192.168.1.20:18181
-小米手环 → 手机 ────┼──────── OBS 电脑 B 192.168.1.21:18181
+小米手环 → 手机 ─────┼──────── OBS 电脑 B 192.168.1.21:18181
                     └──────── 其他 UDP 接收端
-       同一个 Wi-Fi / LAN
 ```
 
 ---
@@ -194,11 +193,6 @@ adb shell am force-stop com.mi.health
 也可以直接在 Android 系统的应用信息页中强制停止“小米运动健康”。
 
 > LSPosed 模块是在目标进程启动时注入的。修改作用域、更新 PulseRelay APK 或修改 Hook 代码后，都建议强制停止并重新打开小米运动健康。
-
-> 📷 **截图预留：LSPosed 作用域**  
-> 建议文件：`docs/images/01-lsposed-scope.png`
->
-> <!-- ![LSPosed 作用域](docs/images/01-lsposed-scope.png) -->
 
 ---
 
@@ -259,10 +253,7 @@ PulseRelay 会尝试给 About 页面中的 ImageView 安装长按入口；如果
 
 成功后会弹出 PulseRelay 完整设置界面。
 
-> 📷 **截图预留：关于页设置入口**  
-> 建议文件：`docs/images/02-settings-entry.png`
->
-> <!-- ![设置入口](docs/images/02-settings-entry.png) -->
+<img width="1200" height="2608" alt="Screenshot_2026-08-28-14-51-34-445_com mi health" src="https://github.com/user-attachments/assets/70991b75-151c-442d-af89-882efcc5c9bd" />
 
 ### 运动过程中进入
 
@@ -331,10 +322,7 @@ PulseRelay 3.x 会自动迁移为：
 
 所以通常不需要手动清除旧配置。
 
-> 📷 **截图预留：PulseRelay 完整设置页**  
-> 建议文件：`docs/images/03-settings.png`
->
-> <!-- ![PulseRelay 设置](docs/images/03-settings.png) -->
+<img width="1200" height="2608" alt="Screenshot_2026-08-28-14-51-37-489_com mi health" src="https://github.com/user-attachments/assets/9c43634f-182d-40b3-a533-1b0eddb90c99" />
 
 ---
 
@@ -394,11 +382,6 @@ OBS 插件
 ```
 
 普通局域网不需要调大。如果 Wi-Fi 很忙或使用虚拟网络，可以适当提高。
-
-> 📷 **截图预留：PING/PONG 成功结果**  
-> 建议文件：`docs/images/07-ping-pong.png`
->
-> <!-- ![PING PONG](docs/images/07-ping-pong.png) -->
 
 ---
 
@@ -517,15 +500,12 @@ PulseRelay 会检测小米运动健康的运动 Activity，并把悬浮入口直
 - 打开完整设置；
 - 返回运动页面。
 
-> 📷 **截图预留：运动页悬浮按钮**  
-> 建议文件：`docs/images/04-sport-overlay.png`
->
-> <!-- ![运动悬浮按钮](docs/images/04-sport-overlay.png) -->
+> **运动页悬浮按钮**  
+<img width="1200" height="2608" alt="Screenshot_2026-08-28-15-16-07-002_com mi health" src="https://github.com/user-attachments/assets/ae927c2e-fe33-4f64-aec8-eb292f1e223b" />
 
-> 📷 **截图预留：运动快捷面板**  
-> 建议文件：`docs/images/05-sport-quick-panel.png`
->
-> <!-- ![运动快捷面板](docs/images/05-sport-quick-panel.png) -->
+
+> **运动快捷面板**  
+<img width="1200" height="2608" alt="Screenshot_2026-08-28-15-16-10-641_com mi health" src="https://github.com/user-attachments/assets/34ba1194-3860-4028-8aba-2edf4b6db1d6" />
 
 ---
 
