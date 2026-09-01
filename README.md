@@ -2,7 +2,7 @@
 
 > 将小米运动健康里的实时心率，通过局域网 UDP 低延迟转发给 OBS 或其他接收端。
 
-PulseRelay 是一个面向 **Root + LSPosed** 环境的 Android 模块。目前主要针对 **[小米运动健康 3.58.x](https://cdn.cnbj0.fds.api.mi-img.com/default/3.58.0_20260810220817_mihealth.apk?GalaxyAccessKeyId=5721718224520&Expires=9223372036854775807&Signature=RXd/t4LSeyB1dW8JBYCmUoDet6M=&response-content-disposition=attachment)** 适配，并针对直播/录制场景做了专门简化：不需要账号、UUID、Cookie、HTTP Server、JSON API，也不要求手机长期充当服务端。
+PulseRelay 是一个面向 **Root + LSPosed** 环境的 Android 模块。目前主要针对 **[小米运动健康 3.58.x](https://cdn.cnbj0.fds.api.mi-img.com/default/3.58.0_20260810220817_mihealth.apk?GalaxyAccessKeyId=5721718224520&Expires=9223372036854775807&Signature=RXd/t4LSeyB1dW8JBYCmUoDet6M=&response-content-disposition=attachment)** 后的版本适配，并针对直播/录制场景做了专门简化：不需要账号、UUID、Cookie、HTTP Server、JSON API，也不要求手机长期充当服务端。
 
 配套 obs 插件请前往 https://github.com/ChlorophyTeio/heart-rate-obs-plugin 下载，教程：[哔哩哔哩](https://www.bilibili.com/video/BV12B4y6uEAE/?vd_source=ebbf314ee35a24ca929985181d800d36)。
 
